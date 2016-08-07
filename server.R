@@ -15,7 +15,7 @@ shinyServer(function(input, output) {
     x<-iris$Sepal.Length[1:bins]
     y<-iris$Sepal.Width[1:bins] 
     # draw the histogram with the specified number of bins
-    col = 'red', border = 'skyblue',xlab="Sepal.Length",ylab = "Sepal.Width"
+    col = 'red',border = 'skyblue',xlab="Sepal.Length",ylab = "Sepal.Width"
   })
 
 })
